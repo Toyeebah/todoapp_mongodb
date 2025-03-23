@@ -14,9 +14,9 @@ user_collection = client["todoapp"]["users"]
 todo_collection = client["todoapp"]["todo"]
 
 
-# Send a ping to confirm a successful connection
+
 try:
     client.admin.command('ping')
-    print("Pinged your deployment. You successfully connected to MongoDB!")
+    print("Pinging your deployment. You successfully connected to MongoDB!")
 except Exception as e:
     print(e)
